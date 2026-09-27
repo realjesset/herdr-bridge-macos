@@ -1,5 +1,9 @@
 # Herdr Bridge for macOS
 
+[Download the Apple Silicon DMG](https://github.com/realjesset/herdr-bridge-macos/releases/download/v0.1.0-alpha.1/Herdr.Bridge.dmg) · [All alpha downloads and checksums](https://github.com/realjesset/herdr-bridge-macos/releases/tag/v0.1.0-alpha.1)
+
+Native macOS CI passed: six Swift tests, app build, ad-hoc signature verification and DMG creation. This does not replace interactive UI/notification/security testing. The prebuilt app is **Apple Silicon only**, ad-hoc signed, not notarized. Intel users must build from source.
+
 **Experimental:** read the [security review and remaining limitations](SECURITY-REVIEW.md). **Stop prevents new connections but may leave existing TCP/WebSocket sessions alive; Disconnect or Quit closes all channels.**
 
 A small Mac menu-bar app for bringing remote development services to your Mac over SSH. It shows detected services and forwards a port **only after you click Forward**.
